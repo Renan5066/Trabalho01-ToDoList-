@@ -1,42 +1,108 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 1px;
+    color: #333;
+    background-image: url('./img/bg.jpg');
+    background-position: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.app {
+    max-width: 600px;
+    margin: 0 auto 300px;
+    background-color: #efefef;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.377);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    text-align: center;
+    color: #5B5F97;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h2 {
+    margin-bottom: 10px;
 }
 
-.card {
-  padding: 2em;
+p {
+    margin: 10px 0;
 }
 
-.read-the-docs {
-  color: #888;
+input {
+    box-sizing: border-box;
 }
+
+button {
+    cursor: pointer;
+    background-color: #5B5F97;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.complete {
+    background-color: green;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.complete:hover {
+    opacity: 1;
+}
+
+.remove {
+    background-color: red;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.remove:hover {
+    opacity: 1;
+}
+
+.todo-list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555;
+
+}
+
+.todo {
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.todo-form {
+    padding-bottom: 1.5rem;
+}
+
+input, select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.filter, .search {
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+

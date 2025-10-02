@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #5B5F97;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #f700ff;
+    /* muda cor ao passar o mouse */
+}
