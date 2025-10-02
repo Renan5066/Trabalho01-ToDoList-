@@ -57,13 +57,13 @@ Remover tarefas da lista.
 # Screenshots
 
 -Navbar e Header:
-[!navbar-header](./screenshots/navbar-header.png)
+[!navbar-header](./src/screenshots/navbar-header.png)
 
 -Corpo:
-[!corpo](./screenshots/corpo.png)
+[!corpo](./src/screenshots/corpo.png)
 
 -Funções:
-[!funções](./screenshots/funções.png)
+[!funções](./src/screenshots/funções.png)
 
 # 🔧 Contribuições
 
